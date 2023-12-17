@@ -1,15 +1,16 @@
 import java.util.List;
 
 public abstract class Pokemon {
-    String name;
-    int level;
-    float height;
-    float weight;
-    String food;
-    String sound;
-    String defence;
-    List<String> attacks;
-    String type;
+    private String name;
+    private int level;
+    private float height;
+    private float weight;
+    private String food;
+    private String sound;
+    private String defence;
+    private List<String> attacks;
+    private String type;
+    private int hp;
 
     /*
     `hp` (health points)
@@ -64,6 +65,14 @@ public abstract class Pokemon {
 
     public void setType(String type) {
         this.type = type;
+    }
+
+    public void setHp(int hp) {
+        this.hp = hp;
+    }
+
+    public int getHp() {
+        return hp;
     }
 
     public String getName() {
