@@ -23,11 +23,11 @@ public class PokemonTrainer {
         this.username = newUsername;
     }
     public void addNewPokemon(Pokemon pokemon){
-        trainerPokemons.add(pokemon);
+        pokemons.add(pokemon);
     }
     public void addSetPokemon(List<Pokemon> pokemons){
         for (int i=0; i<pokemons.size(); i++){
-            trainerPokemons.add(pokemons.get(i));
+            pokemons.add(pokemons.get(i));
         }
     }
 }
