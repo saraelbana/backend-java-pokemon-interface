@@ -9,8 +9,6 @@ public class Methodes {
         return attacks;
     }
 
-
-
     /*De volgende 16 methodes zijn aanvallen*/
     void surf(Pokemon name, Pokemon enemy);
 
@@ -43,6 +41,4 @@ public class Methodes {
     void inferno(Pokemon name, Pokemon enemy);
 
     void voltTackle(Pokemon name, Pokemon enemy);
-
-
 }
