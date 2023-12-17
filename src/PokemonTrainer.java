@@ -25,4 +25,12 @@ public class PokemonTrainer {
     public void changeTrainerName(String newUsername){
         this.username = newUsername;
     }
+    public void addNewPokemon(Pokemon pokemon){
+        trainerPokemons.add(pokemon);
+    }
+    public void addSetPokemon(List<Pokemon> pokemons){
+        for (int i=0; i<pokemons.size(); i++){
+            trainerPokemons.add(pokemons.get(i));
+        }
+    }
 }
