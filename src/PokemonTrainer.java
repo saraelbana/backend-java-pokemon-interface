@@ -8,7 +8,7 @@ public class PokemonTrainer {
         this.username = username;
         this.pokemons = pokemons;
     }
-    public String getUsername() {
+    public String getName() {
         return username;
     }
     public List<Pokemon> getPokemons(){
