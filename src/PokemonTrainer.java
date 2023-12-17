@@ -16,7 +16,7 @@ public class PokemonTrainer {
     }
     public void displayPokemonNames(){
         for(int i=0; i<pokemons.size();i++){
-            System.out.println(pokemons.get(i).name);
+            System.out.println(pokemons.get(i).getName());
         }
     }
     public void changeTrainerName(String newUsername){

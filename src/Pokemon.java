@@ -1,6 +1,6 @@
 import java.util.List;
 
-public abstract class Pokemon {
+public abstract class Pokemon implements Methodes{
     private String name;
     private int level;
     private float height;
