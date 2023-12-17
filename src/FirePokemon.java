@@ -1,4 +1,5 @@
 import javax.management.remote.SubjectDelegationPermission;
+import java.util.List;
 
 public class FirePokemon extends Pokemon{
    // private static final FirePokemon charizard = new FirePokemon("Charrizard", 76, 150, "firenougats", "GRRRRRRRRRRRRRRR");
@@ -42,8 +43,23 @@ public class FirePokemon extends Pokemon{
     }
 
     @Override
-    public void setAttack(String attack) {
-        super.setAttack(attack);
+    public List<String> getAttacks() {
+        return super.getAttacks();
+    }
+
+    @Override
+    public void setAttacks(List<String> attacks) {
+        super.setAttacks(attacks);
+    }
+
+    @Override
+    public void setType(String type) {
+        super.setType(type);
+    }
+
+    @Override
+    public String getType() {
+        return super.getType();
     }
 
     @Override
@@ -85,4 +101,5 @@ public class FirePokemon extends Pokemon{
     public String getAttack() {
         return super.getAttack();
     }
+
 }

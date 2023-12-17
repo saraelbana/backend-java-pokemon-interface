@@ -1,3 +1,5 @@
+import java.util.List;
+
 public class ElectricPokemon extends Pokemon{
     ElectricPokemon(String name, float weight, float height, String food, String sound){
         super(name,  weight,  height,  food,  sound);
@@ -38,10 +40,6 @@ public class ElectricPokemon extends Pokemon{
         super.setDefence(defence);
     }
 
-    @Override
-    public void setAttack(String attack) {
-        super.setAttack(attack);
-    }
 
     @Override
     public String getName() {
@@ -79,7 +77,8 @@ public class ElectricPokemon extends Pokemon{
     }
 
     @Override
-    public String getAttack() {
-        return super.getAttack();
+    public List<String> getAttacks() {
+        return super.getAttacks();
     }
+
 }

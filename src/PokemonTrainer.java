@@ -2,18 +2,15 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class PokemonTrainer {
-
     private String username;
     List<Pokemon> pokemons= new ArrayList<Pokemon>();
     PokemonTrainer(String username, List<Pokemon> pokemons){
         this.username = username;
         this.pokemons = pokemons;
     }
-
     public String getUsername() {
         return username;
     }
-
     public List<Pokemon> getPokemons(){
         return pokemons;
     }
