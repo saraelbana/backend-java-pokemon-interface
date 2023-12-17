@@ -98,8 +98,12 @@ public class FirePokemon extends Pokemon{
     }
 
     @Override
-    public String getAttack() {
-        return super.getAttack();
+    public void setHp(int hp) {
+        super.setHp(hp);
     }
 
+    @Override
+    public int getHp() {
+        return super.getHp();
+    }
 }

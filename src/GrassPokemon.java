@@ -79,4 +79,29 @@ public class GrassPokemon extends Pokemon {
     public String getDefence() {
         return super.getDefence();
     }
+
+    @Override
+    public void setAttacks(List<String> attacks) {
+        super.setAttacks(attacks);
+    }
+
+    @Override
+    public void setType(String type) {
+        super.setType(type);
+    }
+
+    @Override
+    public void setHp(int hp) {
+        super.setHp(hp);
+    }
+
+    @Override
+    public int getHp() {
+        return super.getHp();
+    }
+
+    @Override
+    public String getType() {
+        return super.getType();
+    }
 }
