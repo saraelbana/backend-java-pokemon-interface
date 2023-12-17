@@ -9,20 +9,24 @@ public abstract class Pokemon {
     String attack;
 
     /*
-    `name`
-    `level`
     `hp` (health points)
     `xp` (experience points)
-    `height`
-    `weight`
-    `food`
-    `sound`
-    `defence`
-    `attack`
     `special`
     `accuracy`
     */
 
+    // private static final FirePokemon charizard =
+    // new FirePokemon("Charrizard", 76, 150, "firenougats", "GRRRRRRRRRRRRRRR");
+
+    Pokemon(){}
+    Pokemon(String name, float weight, float height, String food, String sound){
+        this.name = name;
+        this.weight = weight;
+        this.height = height;
+        this.food = food;
+        this.sound = sound;
+
+    }
     public void setName(String name) {
         this.name = name;
     }
