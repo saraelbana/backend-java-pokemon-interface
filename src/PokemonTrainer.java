@@ -4,22 +4,22 @@ import java.util.List;
 public class PokemonTrainer {
 
     private String username;
-    List<Pokemon> trainerPokemons= new ArrayList<Pokemon>();
-    PokemonTrainer(String username, List<Pokemon> pokemon){
+    List<Pokemon> pokemons= new ArrayList<Pokemon>();
+    PokemonTrainer(String username, List<Pokemon> pokemons){
         this.username = username;
-        trainerPokemons = pokemon;
+        this.pokemons = pokemons;
     }
 
     public String getUsername() {
         return username;
     }
 
-    public List<Pokemon> getTrainerPokemons() {
-        return trainerPokemons;
+    public List<Pokemon> getPokemons(){
+        return pokemons;
     }
     public void displayPokemonNames(){
-        for(int i=0; i<trainerPokemons.size();i++){
-            System.out.println(trainerPokemons.get(i).name);
+        for(int i=0; i<pokemons.size();i++){
+            System.out.println(pokemons.get(i).name);
         }
     }
     public void changeTrainerName(String newUsername){

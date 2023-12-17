@@ -7,6 +7,7 @@ public abstract class Pokemon {
     String sound;
     String defence;
     String attack;
+    String type;
 
     /*
     `hp` (health points)
@@ -59,6 +60,10 @@ public abstract class Pokemon {
         this.attack = attack;
     }
 
+    public void setType(String type) {
+        this.type = type;
+    }
+
     public String getName() {
         return name;
     }
@@ -91,4 +96,7 @@ public abstract class Pokemon {
         return attack;
     }
 
+    public String getType() {
+        return type;
+    }
 }
