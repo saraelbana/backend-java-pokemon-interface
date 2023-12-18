@@ -1,28 +1,36 @@
-public abstract class Pokemon {
-    String name;
-    int level;
-    float height;
-    float weight;
-    String food;
-    String sound;
-    String defence;
-    String attack;
+import java.util.List;
+
+public abstract class Pokemon implements Methodes{
+    private String name;
+    private int level;
+    private float height;
+    private float weight;
+    private String food;
+    private String sound;
+    private String defence;
+    private List<String> attacks;
+    private String type;
+    private int hp;
 
     /*
-    `name`
-    `level`
     `hp` (health points)
     `xp` (experience points)
-    `height`
-    `weight`
-    `food`
-    `sound`
-    `defence`
-    `attack`
     `special`
     `accuracy`
     */
 
+    // private static final FirePokemon charizard =
+    // new FirePokemon("Charrizard", 76, 150, "firenougats", "GRRRRRRRRRRRRRRR");
+
+    Pokemon(){}
+    Pokemon(String name, float weight, float height, String food, String sound){
+        this.name = name;
+        this.weight = weight;
+        this.height = height;
+        this.food = food;
+        this.sound = sound;
+
+    }
     public void setName(String name) {
         this.name = name;
     }
@@ -51,8 +59,20 @@ public abstract class Pokemon {
         this.defence = defence;
     }
 
-    public void setAttack(String attack) {
-        this.attack = attack;
+    public void setAttacks(List<String> attacks) {
+        this.attacks = attacks;
+    }
+
+    public void setType(String type) {
+        this.type = type;
+    }
+
+    public void setHp(int hp) {
+        this.hp = hp;
+    }
+
+    public int getHp() {
+        return hp;
     }
 
     public String getName() {
@@ -83,8 +103,11 @@ public abstract class Pokemon {
         return defence;
     }
 
-    public String getAttack() {
-        return attack;
+    public List<String> getAttacks() {
+        return attacks;
     }
 
+    public String getType() {
+        return type;
+    }
 }
