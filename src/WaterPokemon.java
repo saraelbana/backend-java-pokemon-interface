@@ -105,6 +105,8 @@ public class WaterPokemon extends Pokemon{
         return super.getType();
     }
 
+    //due to  of knowledge of the Pokemon game i have no idea what should i implement here!!!
+    //  guess I'm old
     @Override
     public void surf(Pokemon name, Pokemon enemy) {
 
