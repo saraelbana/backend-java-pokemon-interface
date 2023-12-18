@@ -2,7 +2,6 @@ import javax.management.remote.SubjectDelegationPermission;
 import java.util.List;
 
 public class FirePokemon extends Pokemon{
-   // private static final FirePokemon charizard = new FirePokemon("Charrizard", 76, 150, "firenougats", "GRRRRRRRRRRRRRRR");
     FirePokemon(String name, float weight, float height, String food, String sound){
         super( name,  weight,  height,  food,  sound);
     }
@@ -105,5 +104,85 @@ public class FirePokemon extends Pokemon{
     @Override
     public int getHp() {
         return super.getHp();
+    }
+
+    @Override
+    public void surf(Pokemon name, Pokemon enemy) {
+
+    }
+
+    @Override
+    public void fireLash(Pokemon name, Pokemon enemy) {
+
+    }
+
+    @Override
+    public void leafStorm(Pokemon name, Pokemon enemy) {
+
+    }
+
+    @Override
+    public void hydroPump(Pokemon name, Pokemon enemy) {
+
+    }
+
+    @Override
+    public void thunderPunch(Pokemon name, Pokemon enemy) {
+
+    }
+
+    @Override
+    public void electroBall(Pokemon name, Pokemon enemy) {
+
+    }
+
+    @Override
+    public void solarBeam(Pokemon name, Pokemon enemy) {
+
+    }
+
+    @Override
+    public void flameThrower(Pokemon name, Pokemon enemy) {
+
+    }
+
+    @Override
+    public void hydroCanon(Pokemon name, Pokemon enemy) {
+
+    }
+
+    @Override
+    public void pyroBall(Pokemon name, Pokemon enemy) {
+
+    }
+
+    @Override
+    public void thunder(Pokemon name, Pokemon enemy) {
+
+    }
+
+    @Override
+    public void rainDance(Pokemon name, Pokemon enemy) {
+
+    }
+
+    @Override
+    public void leechSeed(Pokemon name, Pokemon enemy) {
+
+    }
+
+    @Override
+    public void leaveBlade(Pokemon name, Pokemon enemy) {
+
+    }
+
+    @Override
+    public void inferno(Pokemon name, Pokemon enemy) {
+
+    }
+
+    @Override
+    public void voltTackle(Pokemon name, Pokemon enemy) {
+
     }
 }

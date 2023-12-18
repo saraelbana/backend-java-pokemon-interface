@@ -104,4 +104,84 @@ public class WaterPokemon extends Pokemon{
     public String getType() {
         return super.getType();
     }
+
+    @Override
+    public void surf(Pokemon name, Pokemon enemy) {
+
+    }
+
+    @Override
+    public void fireLash(Pokemon name, Pokemon enemy) {
+
+    }
+
+    @Override
+    public void leafStorm(Pokemon name, Pokemon enemy) {
+
+    }
+
+    @Override
+    public void hydroPump(Pokemon name, Pokemon enemy) {
+
+    }
+
+    @Override
+    public void thunderPunch(Pokemon name, Pokemon enemy) {
+
+    }
+
+    @Override
+    public void electroBall(Pokemon name, Pokemon enemy) {
+
+    }
+
+    @Override
+    public void solarBeam(Pokemon name, Pokemon enemy) {
+
+    }
+
+    @Override
+    public void flameThrower(Pokemon name, Pokemon enemy) {
+
+    }
+
+    @Override
+    public void hydroCanon(Pokemon name, Pokemon enemy) {
+
+    }
+
+    @Override
+    public void pyroBall(Pokemon name, Pokemon enemy) {
+
+    }
+
+    @Override
+    public void thunder(Pokemon name, Pokemon enemy) {
+
+    }
+
+    @Override
+    public void rainDance(Pokemon name, Pokemon enemy) {
+
+    }
+
+    @Override
+    public void leechSeed(Pokemon name, Pokemon enemy) {
+
+    }
+
+    @Override
+    public void leaveBlade(Pokemon name, Pokemon enemy) {
+
+    }
+
+    @Override
+    public void inferno(Pokemon name, Pokemon enemy) {
+
+    }
+
+    @Override
+    public void voltTackle(Pokemon name, Pokemon enemy) {
+
+    }
 }
